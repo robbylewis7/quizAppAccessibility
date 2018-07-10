@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="This is a quiz to test your overall knowledge of the NBA">
+    <title>Basketball Quiz App</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed" rel="stylesheet">
+  </head>
+
+  <body>
+    <header role = "banner">
+      <ul>
+        <li>Question: <span class="questionNumber"></span></li>
+        <li>Score: <span class="score">0</span></li>
+      </ul>
+      <img class = "logo" src = "https://images.vexels.com/media/users/3/135385/isolated/preview/212a5985af3fc8329ada7bc2a45bad82-basketball-circle-icon-by-vexels.png" alt = "Basketball Icon" />
+    </header>
+
+    <main role = "main">
+      <div class = "quizArea js-result-page">
+        <h1>How much do you really hoop?</h1>
+          <h2>A quiz to test your all-around NBA knowledge</h2>
+          <button type="submit" class="startButton js-start-button">Let's Hoop!</button>
+      </div>
+      <div class="col-6 questionAnswerForm js-question-page"></div>
+      <div class = " col-8 js-answer-pages"></div>  
+    </main>
+
+    <script         src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+    <script src="data.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
